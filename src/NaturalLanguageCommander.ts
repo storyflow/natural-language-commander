@@ -24,7 +24,6 @@ const delay: IDelay =
 
 /** Holds registered natural language commands. */
 class NaturalLanguageCommander {
-  /** List of registered slot types. */
   private slotTypes: { [name: string]: ISlotType };
   private intentNames: string[];
   private intents: IIntent[];
