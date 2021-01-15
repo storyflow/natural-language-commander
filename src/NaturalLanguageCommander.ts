@@ -265,7 +265,7 @@ class NaturalLanguageCommander {
 
     return {
       ...match,
-      slots: [...(intent.slots ?? []), { name,value: command }],
+      slots: [...(match.slots ?? []), { name,value: command }],
       required: required,
     }
   }
